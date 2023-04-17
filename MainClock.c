@@ -12,6 +12,8 @@ int main()//int argc, char* argv[])
 
 	Clock_Delete(&casio);
     Clock* reloj = Clock_New(12,0,0); //Creo un nuevo reloj despues de haber eliminado el reloj casio 
+	
+	//Agrego este comentario desde la edicion de GitHub, haré el pull para ver en mi repositorio local 
 
 
 	return 0;
