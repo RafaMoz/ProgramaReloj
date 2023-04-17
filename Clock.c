@@ -26,6 +26,16 @@ int Clock_Get_Hrs(Clock* this)
 	return this->hrs;
 }
 
+int Clock_get_min(Clock* this)
+{
+    return this->min;
+}
+
+int Clock_get_sec(Clock* this)
+{
+    return this->sec;
+}
+
 void Clock_Set_Hr(Clock* this, int hrs)
 {
 	this->hrs = hrs;
